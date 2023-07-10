@@ -92,7 +92,8 @@ footer {
   flex-direction: column;
   margin: 16px;
   padding: 32px;
-  height: 30vw;
+  height: 512px !important;
+  width: 1000px !important;
   border: var(--bw-size) solid var(--bbg-color);
   background-color: var(--bg-color);
   background-position: center center;
