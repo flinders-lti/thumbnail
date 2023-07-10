@@ -149,6 +149,7 @@ input {
 
 .controls {
   margin: 16px;
+  width: 300px;
 }
 
 .color {
