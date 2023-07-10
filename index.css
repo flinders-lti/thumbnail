@@ -94,7 +94,7 @@ footer {
   height: 512px !important;
   width: 1000px !important;
   border: var(--bw-size) solid var(--bbg-color);
-  background-color: var(--bg-color);
+  background-color: #fff;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
