@@ -19,7 +19,7 @@
 
 ::selection {
   background-color: #fff;
-  color: #000;
+  color: var(--bg-color);
 }
 
 @keyframes fadein {
@@ -93,7 +93,7 @@ footer {
   padding: 32px;
   height: 512px !important;
   width: 1000px !important;
-  border: var(--bw-size) solid var(--bbg-color);
+  border: 8px solid #ffd300;
   background-color: #fff;
   background-position: center center;
   background-size: cover;
