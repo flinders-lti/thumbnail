@@ -93,12 +93,12 @@ footer {
   padding: 32px;
   height: 512px !important;
   width: 1000px !important;
-  border: 8px solid #ffd300;
-  background-color: #fff;
+  border: var(--bw-size) solid var(--bbg-color);
+  background-color: var(--bg-color);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #000;
+  color: var(--fg-color);
   text-align: center;
   justify-content: center;
   flex-grow: 1;
