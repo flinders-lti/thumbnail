@@ -82,7 +82,6 @@ footer {
   z-index: 99;
   display: inline-flex;
   background-color: #fff;
-  flex-grow: 1;
 }
 
 .capture {
