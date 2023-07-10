@@ -110,10 +110,28 @@
         </div>
         <div class="controls">
           <div class="actions">
-            <button id="download" onclick="download()">Download</button>
+            <button id="download" onclick="download()">Download thumbnail</button>
           
           </div>
-         
+
+               <div class="flex">
+            <h3>Foreground color</h3>
+            <div id="fg" class="color"></div>
+          </div>
+          <div class="flex">
+            <h3>Border color</h3>
+            <div id="bbg" class="color"></div>
+          </div>
+          <div class="flex">
+            <h3>Border width</h3>
+            <input
+              id="borderw"
+              type="number"
+              oninput="borderwidth(this)"
+              value="0"
+              min="0"
+            />
+          
           <div class="flex">
             <h3>Font size</h3>
             <input
