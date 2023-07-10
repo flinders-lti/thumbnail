@@ -166,7 +166,7 @@ input {
 }
 
 #fg {
-  background-color: #000;
+  background-color: var(--fg-color);
 }
 
 #bbg {
