@@ -161,15 +161,15 @@ input {
 }
 
 #bg {
-  background-color: var(--bg-color);
+  background-color: #fff;
 }
 
 #fg {
-  background-color: var(--fg-color);
+  background-color: #000;
 }
 
 #bbg {
-  background-color: var(--bbg-color);
+  background-color: #ffd300;
 }
 
 #tsc {
